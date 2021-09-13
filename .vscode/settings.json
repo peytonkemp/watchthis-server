@@ -5,4 +5,12 @@
         "--load-plugins=pylint_django",
         "--django-settings-module=watchthis.settings",
     ],
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "name": "watchthis",
+            "database": "db.sqlite3"
+        }
+    ],
 }
