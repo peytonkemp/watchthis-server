@@ -1,8 +1,8 @@
 from django.db import models
 
 
-class Game(models.Model):
-    """Game Model
+class Movie(models.Model):
+    """Movie Model
     Fields:
     """
     title = models.CharField(max_length=100)
