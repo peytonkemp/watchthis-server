@@ -1,0 +1,10 @@
+[
+    {
+        "model": "watchthisapi.moviewatchlist",
+        "pk": 1,
+        "fields": {
+            "movie": 1,
+            "watchlist": 1
+        }
+    }
+]
