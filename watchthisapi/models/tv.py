@@ -10,8 +10,6 @@ class Tv(models.Model):
     overview = models.CharField(max_length=2000)
     popularity = models.IntegerField()
     poster_path = models.CharField(max_length=1000)
-    release_date = models.DateField()
-    seasons = models.IntegerField()
     tagline = models.CharField(max_length=1000)
     vote_average = models.IntegerField()
 

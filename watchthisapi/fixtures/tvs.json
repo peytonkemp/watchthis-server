@@ -1,0 +1,15 @@
+[
+    {
+        "model": "watchthisapi.movie",
+        "pk": 1,
+        "fields": {
+            "name": "Game of Thrones",
+            "backdrop_path": "/suopoADq0k8YZr4dQXcU6pToj6s.jpg",
+            "overview": "Seven noble families fight for control of the mythical land of Westeros. Friction between the houses leads to full-scale war. All while a very ancient evil awakens in the farthest north. Amidst the war, a neglected military order of misfits, the Night's Watch, is all that stands between the realms of men and icy horrors beyond.",
+            "popularity": 587.958,
+            "poster_path": "/u3bZgnGQ9T01sWNhyveQz0wH0Hl.jpg",
+            "tagline": "Winter Is Coming",
+            "vote_average": 8.4
+        }
+    }
+]
