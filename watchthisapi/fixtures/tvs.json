@@ -1,6 +1,6 @@
 [
     {
-        "model": "watchthisapi.movie",
+        "model": "watchthisapi.tv",
         "pk": 1,
         "fields": {
             "name": "Game of Thrones",

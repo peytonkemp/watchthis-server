@@ -1,132 +1,132 @@
 [
     {
-        "model": "watchthisapi.genre",
+        "model": "watchthisapi.moviegenre",
         "pk": 28,
         "fields": {
             "name": "Action"
         }
     },
     {
-        "model": "watchthisapi.genre",
+        "model": "watchthisapi.moviegenre",
         "pk": 12,
         "fields": {
             "name": "Adventure"
         }
     },
     {
-        "model": "watchthisapi.genre",
+        "model": "watchthisapi.moviegenre",
         "pk": 16,
         "fields": {
             "name": "Animation"
         }
     },
     {
-        "model": "watchthisapi.genre",
+        "model": "watchthisapi.moviegenre",
         "pk": 35,
         "fields": {
             "name": "Comedy"
         }
     },
     {
-        "model": "watchthisapi.genre",
+        "model": "watchthisapi.moviegenre",
         "pk": 80,
         "fields": {
             "name": "Crime"
         }
     },
     {
-        "model": "watchthisapi.genre",
+        "model": "watchthisapi.moviegenre",
         "pk": 99,
         "fields": {
             "name": "Documentary"
         }
     },
     {
-        "model": "watchthisapi.genre",
+        "model": "watchthisapi.moviegenre",
         "pk": 18,
         "fields": {
             "name": "Drama"
         }
     },
     {
-        "model": "watchthisapi.genre",
+        "model": "watchthisapi.moviegenre",
         "pk": 10751,
         "fields": {
             "name": "Family"
         }
     },
     {
-        "model": "watchthisapi.genre",
+        "model": "watchthisapi.moviegenre",
         "pk": 14,
         "fields": {
             "name": "Fantasy"
         }
     },
     {
-        "model": "watchthisapi.genre",
+        "model": "watchthisapi.moviegenre",
         "pk": 36,
         "fields": {
             "name": "History"
         }
     },
     {
-        "model": "watchthisapi.genre",
+        "model": "watchthisapi.moviegenre",
         "pk": 27,
         "fields": {
             "name": "Horror"
         }
     },
     {
-        "model": "watchthisapi.genre",
+        "model": "watchthisapi.moviegenre",
         "pk": 10402,
         "fields": {
             "name": "Music"
         }
     },
     {
-        "model": "watchthisapi.genre",
+        "model": "watchthisapi.moviegenre",
         "pk": 9648,
         "fields": {
             "name": "Mystery"
         }
     },
     {
-        "model": "watchthisapi.genre",
+        "model": "watchthisapi.moviegenre",
         "pk": 10749,
         "fields": {
             "name": "Romance"
         }
     },
     {
-        "model": "watchthisapi.genre",
+        "model": "watchthisapi.moviegenre",
         "pk": 878,
         "fields": {
             "name": "Science Fiction"
         }
     },
     {
-        "model": "watchthisapi.genre",
+        "model": "watchthisapi.moviegenre",
         "pk": 10770,
         "fields": {
             "name": "TV Movie"
         }
     },
     {
-        "model": "watchthisapi.genre",
+        "model": "watchthisapi.moviegenre",
         "pk": 53,
         "fields": {
             "name": "Thriller"
         }
     },
     {
-        "model": "watchthisapi.genre",
+        "model": "watchthisapi.moviegenre",
         "pk": 10752,
         "fields": {
             "name": "War"
         }
     },
     {
-        "model": "watchthisapi.genre",
+        "model": "watchthisapi.moviegenre",
         "pk": 37,
         "fields": {
             "name": "Western"
