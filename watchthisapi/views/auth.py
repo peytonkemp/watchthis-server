@@ -6,7 +6,6 @@ from rest_framework.permissions import AllowAny
 from rest_framework.response import Response
 from rest_framework import status
 
-from levelupapi.models import Gamer
 
 
 @api_view(["POST"])
@@ -57,12 +56,8 @@ def register_user(request):
         last_name=request.data['last_name']
     )
 
-    gamer = Gamer.objects.create(
-        bio=request.data['bio'],
-        user=new_user
-    )
-
-    token = Token.objects.create(user=gamer.user)
+    token = Token.objects.create(user=new_user)
+    
     data = {
         'token': token.key
     }
