@@ -20,10 +20,10 @@ def login_user(request):
             token: string, the token of the user
         }
     """
-    username = request.data['username']
+    email = request.data['email']
     password = request.data['password']
 
-    authenticated_user = authenticate(username=username, password=password)
+    authenticated_user = authenticate(username=email, password=password)
     data = {}
     if authenticated_user is not None:
         token = Token.objects.get(user=authenticated_user)
@@ -63,3 +63,5 @@ def register_user(request):
     }
 
     return Response(data, status=status.HTTP_201_CREATED)
+
+
